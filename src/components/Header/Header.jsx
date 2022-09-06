@@ -1,16 +1,7 @@
 import React from "react";
 import { Home, Mail, Shuffle } from "react-feather";
 import styles from "./Header.module.css";
-import {
-  Menu,
-  MenuButton,
-  MenuList,
-  MenuItem,
-  MenuItemOption,
-  MenuGroup,
-  MenuOptionGroup,
-  MenuDivider,
-} from "@chakra-ui/react";
+
 const Header = () => {
   return (
     <div className={styles.container}>

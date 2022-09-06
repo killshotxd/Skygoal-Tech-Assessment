@@ -19,7 +19,7 @@ const Section1 = () => {
         </div>
       </div>
       <div className={styles.right}>
-        <img src={image1} alt="image" />
+        <img src={image1} alt="lol" />
       </div>
     </div>
   );
