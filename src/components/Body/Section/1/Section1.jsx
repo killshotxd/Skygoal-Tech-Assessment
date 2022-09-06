@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Section1.module.css";
-import { Button, ButtonGroup } from "@chakra-ui/react";
+import { Button } from "@chakra-ui/react";
 import image1 from "../../../../assets/pana.svg";
 const Section1 = () => {
   return (

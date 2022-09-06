@@ -3,7 +3,7 @@ import styles from "./Section3.module.css";
 import one from "../../../../assets/product-description 1.png";
 import two from "../../../../assets/product-description 2.png";
 import three from "../../../../assets/product-description 3.png";
-import { Button, ButtonGroup } from "@chakra-ui/react";
+import { Button } from "@chakra-ui/react";
 const Section3 = () => {
   return (
     <div className={styles.container}>
