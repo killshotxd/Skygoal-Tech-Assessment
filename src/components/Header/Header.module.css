@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  height: 6rem;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 3px 5px;
+}
+
+.left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
