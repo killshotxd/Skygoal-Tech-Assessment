@@ -2,6 +2,14 @@ import React from "react";
 import { Facebook, Instagram, Twitter } from "react-feather";
 import styles from "./Section4.module.css";
 import avat from "../../../../assets/avatar.svg";
+
+import i1 from "../../../../assets/image 7.png";
+import i2 from "../../../../assets/image 9.png";
+import i3 from "../../../../assets/image 10.png";
+import i4 from "../../../../assets/image 11.png";
+import i5 from "../../../../assets/image 13.png";
+import i6 from "../../../../assets/image 14.png";
+
 const Section4 = () => {
   return (
     <div className={styles.container}>
@@ -69,14 +77,14 @@ const Section4 = () => {
         </div>
         <div className={styles.logo}>
           <div className={styles.up}>
-            <img src="" alt="img" />
-            <img src="" alt="img" />
-            <img src="" alt="img" />
+            <img src={i1} alt="img" />
+            <img src={i2} alt="img" />
+            <img src={i3} alt="img" />
           </div>
           <div className={styles.down}>
-            <img src="" alt="img" />
-            <img src="" alt="img" />
-            <img src="" alt="img" />
+            <img src={i4} alt="img" />
+            <img src={i5} alt="img" />
+            <img src={i6} alt="img" />
           </div>
         </div>
       </div>

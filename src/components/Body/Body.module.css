@@ -1,0 +1,9 @@
+.copy {
+  background: red;
+  height: 6vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: white;
+  font-weight: 600;
+}
