@@ -2,11 +2,13 @@ import React from "react";
 
 import Section1 from "./Section/1/Section1";
 import Section2 from "./Section/2/Section2";
+import Section3 from "./Section/3/Section3";
 const Body = () => {
   return (
     <>
       <Section1 />
       <Section2 />
+      <Section3 />
     </>
   );
 };
