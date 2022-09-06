@@ -1,10 +1,11 @@
 import React from "react";
 import styles from "./Section2.module.css";
+import image2 from "../../../../assets/pana-1.svg";
 const Section2 = () => {
   return (
     <div className={styles.container}>
       <div className={styles.left}>
-        <img src="" alt="img" />
+        <img src={image2} alt="img" />
       </div>
       <div className={styles.right}>
         <h2>
@@ -19,9 +20,9 @@ const Section2 = () => {
         </p>
         <p>
           Managed by a team of professional experts with extensive experience
-          and impressive track records, believes that continuous improvements
-          and innovations assure your business to run effectively and
-          efficiently.
+          and impressive track records, <span>DSI</span> believes that
+          continuous improvements and innovations assure your business to run
+          effectively and efficiently.
         </p>
       </div>
     </div>

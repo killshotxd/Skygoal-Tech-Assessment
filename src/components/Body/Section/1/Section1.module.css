@@ -19,3 +19,7 @@
 .left h1 span {
   color: red;
 }
+
+.left p {
+  font-weight: 500;
+}

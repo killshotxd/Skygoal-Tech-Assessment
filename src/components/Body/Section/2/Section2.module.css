@@ -3,4 +3,28 @@
   justify-content: space-evenly;
   align-items: center;
   height: 100vh;
+  background: whitesmoke;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  width: 33vw;
+}
+
+.right h2 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.right h2 span {
+  color: red;
+}
+
+.right p {
+  font-weight: 500;
+}
+
+.right p span {
+  color: red;
 }
