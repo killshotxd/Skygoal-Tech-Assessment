@@ -1,9 +1,10 @@
 .container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: start;
   align-items: center;
   height: 100vh;
   flex-direction: column;
+  gap: 5rem;
 }
 
 .card {
@@ -36,4 +37,15 @@
   font-size: 2rem;
   font-weight: 600;
   text-decoration: underline red;
+  margin-top: 2rem;
+}
+
+.card p {
+  color: red;
+  font-weight: bold;
+}
+
+.card h3 {
+  font-size: 1.2rem;
+  font-weight: 500;
 }
